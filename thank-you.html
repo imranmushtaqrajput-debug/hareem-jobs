@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Application Received — Hareem Beauty Product</title>
+<style>
+:root{--ink:#3a2b2e;--paper:#fbf3f2;--card:#fff;--rose-dark:#a85d69;--line:#ecd5d6;--muted:#7d6a6d;color-scheme:light;}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--ink:#f3e6e7;--paper:#241a1c;--card:#2e2225;--rose-dark:#e8b4bc;--line:#4a3639;--muted:#b9a3a6;}}
+:root[data-theme="dark"]{--ink:#f3e6e7;--paper:#241a1c;--card:#2e2225;--rose-dark:#e8b4bc;--line:#4a3639;--muted:#b9a3a6;}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Georgia,serif;display:flex;align-items:center;justify-content:center;padding:24px;padding-top:calc(24px + env(safe-area-inset-top,0px));padding-bottom:calc(24px + env(safe-area-inset-bottom,0px))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;max-width:480px;width:100%;text-align:center;padding:40px 28px}
+.card img{width:140px;background:#fff;border-radius:50%;padding:6px;margin-bottom:12px}
+.check{width:54px;height:54px;border-radius:50%;background:var(--rose-dark);color:#fff;display:flex;align-items:center;justify-content:center;margin:0 auto 18px;font-size:26px}
+h1{font-size:24px;margin:0 0 12px;color:var(--rose-dark);font-weight:600}
+p{font:15px/1.6 -apple-system,"Segoe UI",sans-serif;color:var(--muted);margin:0 0 6px}
+a{display:inline-block;margin-top:20px;color:var(--rose-dark);font:600 14px -apple-system,sans-serif}
+</style>
+</head>
+<body>
+<div class="card">
+  <img src="logo.png" alt="Hareem Beauty Product">
+  <div class="check">&#10003;</div>
+  <h1>Application Received</h1>
+  <p>Your job application has been submitted successfully.</p>
+  <p>Hareem Beauty Product team will review your details and contact you shortly.</p>
+  
+</div>
+</body>
+</html>
